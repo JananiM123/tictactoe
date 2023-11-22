@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./assets/CSS/reg.css">
+        <title>
+            Registration
+        </title>
+    </head>
+    <body>
+        <form name="registration" action="">
+            <div class="container">
+                <div class="content">
+                    <img src="assets/images/reg.png" name="img"  class="img">
+                    <div class="reg-container">
+                        <div class="alignment">
+                            <div>
+                                <label name="First NAME" class="regdetails">FIRST NAME<span class="mandatory">*</span></label>
+                            </div>
+                            <div class="break_align">
+                                <input type="text" name="firstname" class="regtext">
+                            </div>
+                            <div class="break_align">
+                                <div>
+                                    <label name="LAST NAME" class="regdetails">LAST NAME<span class="mandatory">*</span>
+                                    </label>
+                                </div>
+                                <div class="break_align">
+                                    <input type="text" name="lastname" class="regtext">
+                                </div>
+                            </div>
+                            <div class="break_align">
+                                <div>
+                                    <label name="COMPANY" class="regdetails">COMPANY<span class="mandatory">*</span></label>
+                                </div>
+                                <div class="break_align" >
+                                    <input type="text" name="company" class="regtext">
+                                </div>
+                            </div>
+                            <div  class="break_align">
+                                <div>
+                                    <label name=" Email" class="regdetails">EMAIL<span class="mandatory">*</span></label>
+                                </div>
+                                <div class="break_alignbreak_align">
+                                    <input type="mail" name="mail" class="regtext">
+                                </div>
+                            </div>
+                            <div class="break_align">
+                                <div>
+                                    <label name="pnum" class="regdetails">PHONE NUMBER<span class="mandatory">*</span></label>
+                                </div>
+                                <div class="break_align">
+                                    <input type="number" name="phonenum" class="regtext">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="regcontain">
+                        <div class="alignment">
+                            <div>
+                                <label name="MEAL PREFERENCE" class="regdetails">MEAL PREFERENCE
+                                    <span id="detail-1">Lunch detail</span>
+                                </label>
+                            </div>
+                            <div class="meal_preferce">
+                                <select name="veg" class="regtext">
+                                    <option value="vegetarian">Vegetarian</option>
+                                    <option value="non vegetarian">Non-vegetarian</option>
+                                </select>
+                            </div>
+                            <div class="pay">
+                                    <label name="pay-mode" class="regdetails">PAYMENT-MODE
+                                        <span id="detail-1">Payment Detail</span>
+                                    </label>
+                            </div>
+                            <div class="break_align">
+                                <div class="radio-group">
+                                    <input type="radio" value="green" name="payment" class="color">
+                                    <label name="Cash" class="position">Cash
+                                    </label>
+                                    <input type="radio" value="green" name="payment" class="color">
+                                    <label name="Cheque"class="position">Cheque
+                                    </label>
+                                    <input type="radio" value="green" name="payment" class="color">
+                                    <label name="Demand Draf " class="position">Demand Draf 
+                                    </label>
+                                </div>
+                                <div class="break_align">
+                                    <label name="DD" class="regdetails">DD/CHEQUE NO.</label>
+                                </div >
+                                <div class="break_align">
+                                    <input type="text" name="dd/cheque-no" class="regtext">
+                                </div>
+                            </div>
+                            <div class="break_align">
+                                <label name="drawn" class="regdetails">DRAWN ON(BANK NAME)</label>
+                                <div class="break_align">
+                                    <input type="text" name="drawn" class="regtext">
+                                </div>
+                            </div>
+                            <div class="break_align">
+                                <label name="pay" class="regdetails">PAYABLE AT</label>
+                                <div class="break_align">
+                                    <input type="text" name="pay" class="regtext">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="regcontent">
+                    <div class="span_align">
+                        <label name="pay" class="regdetails">DONATE US</label>
+                        <input type="range" name="range" class="quantity">
+                        <span class="Donate" ><  $ 470  ></span>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" name="submit" value="Submit" id="submit-btn">
+                        <input type="button" name="reset" value="Reset" id="Reset-btn">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
